@@ -1,0 +1,63 @@
+==25000== Memcheck, a memory error detector
+==25000== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==25000== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==25000== Command: ./bank input-1.txt
+==25000== 
+Creating worker thread 77821760 to handle transactions 0 to 11999
+Creating worker thread 77821760 to handle transactions 12000 to 23999
+Creating worker thread 77821760 to handle transactions 24000 to 35999
+Creating worker thread 77821760 to handle transactions 36000 to 47999
+Creating worker thread 77821760 to handle transactions 48000 to 59999
+Creating worker thread 77821760 to handle transactions 60000 to 71999
+Creating worker thread 77821760 to handle transactions 72000 to 83999
+Creating worker thread 77821760 to handle transactions 84000 to 95999
+Creating worker thread 77821760 to handle transactions 96000 to 107999
+Creating worker thread 77821760 to handle transactions 108000 to 120000
+Thread 105531072 started processing 12000 transactions
+Thread 147494592 started processing 12000 transactions
+Thread 122316480 started processing 12000 transactions
+Thread 155887296 started processing 12000 transactions
+Thread 97138368 started processing 12000 transactions
+Thread 164280000 started processing 12000 transactions
+Thread 130709184 started processing 12000 transactions
+Thread 113923776 started processing 12000 transactions
+Thread 172672704 started processing 12001 transactions
+Thread 139101888 started processing 12000 transactions
+Update number: 1
+Update number: 2
+Update number: 3
+Thread 130709184 finished processing transactions
+Update number: 4
+Update number: 5
+Thread 113923776 finished processing transactions
+Update number: 6
+Thread 105531072 finished processing transactions
+Update number: 7
+Update number: 8
+Update number: 9
+Thread 97138368 finished processing transactions
+Update number: 10
+Thread 155887296 finished processing transactions
+Update number: 11
+Thread 172672704 finished processing transactions
+Update number: 12
+Update number: 13
+Thread 139101888 finished processing transactions
+Update number: 14
+Update number: 15
+Update number: 16
+Thread 147494592 finished processing transactions
+Update number: 17
+Thread 122316480 finished processing transactions
+Thread 164280000 finished processing transactions
+Update number: 18
+Program finished. Total updates: 18
+==25000== 
+==25000== HEAP SUMMARY:
+==25000==     in use at exit: 0 bytes in 0 blocks
+==25000==   total heap usage: 387 allocs, 387 frees, 7,563,240 bytes allocated
+==25000== 
+==25000== All heap blocks were freed -- no leaks are possible
+==25000== 
+==25000== For lists of detected and suppressed errors, rerun with: -s
+==25000== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
